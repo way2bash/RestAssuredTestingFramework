@@ -1,17 +1,14 @@
-package com.w2a.RestTestingFramework.testcases;
-import com.w2a.RestFramework.API.CreateCustomerAPI;
+package com.w2a.RestTestingFramework.testcases.stripe;
+import com.w2a.RestFramework.API.stripe.CreateCustomerAPI;
 import com.w2a.RestFramework.Utilities.DataUtil;
 import com.w2a.RestFrameworkSetup.BaseTest;
 import com.w2a.RestTestingFramework.listeners.ExtentListeners;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.Hashtable;
 
-import static io.restassured.RestAssured.*;
 public class CreateCustomerTest extends BaseTest {
     @Test(dataProviderClass = DataUtil.class,dataProvider="data")
     public void validateCreateCustomerAPIWithValidSecretKey(Hashtable<String ,String>data) {

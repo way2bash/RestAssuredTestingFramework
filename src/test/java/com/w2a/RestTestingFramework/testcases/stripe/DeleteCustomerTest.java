@@ -1,15 +1,12 @@
-package com.w2a.RestTestingFramework.testcases;
+package com.w2a.RestTestingFramework.testcases.stripe;
 
-import com.w2a.RestFramework.API.CreateCustomerAPI;
-import com.w2a.RestFramework.API.DeleteCustomerAPI;
+import com.w2a.RestFramework.API.stripe.DeleteCustomerAPI;
 import com.w2a.RestFramework.Utilities.DataUtil;
 import com.w2a.RestFramework.Utilities.TestUtil;
 import com.w2a.RestFrameworkSetup.BaseTest;
 import com.w2a.RestTestingFramework.listeners.ExtentListeners;
 import io.restassured.response.Response;
-import org.json.JSONObject;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.Hashtable;

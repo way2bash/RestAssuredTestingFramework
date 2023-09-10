@@ -29,7 +29,7 @@ public class BaseTest  {
           e.printStackTrace();
       }
         RestAssured.baseURI =config.getProperty("baseURI");
-        RestAssured.basePath=config.getProperty("basePath");
+        //RestAssured.basePath=config.getProperty("basePath");
 
     }
     public void tearDown(){

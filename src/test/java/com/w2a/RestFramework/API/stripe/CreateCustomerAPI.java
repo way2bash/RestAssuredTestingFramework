@@ -1,4 +1,4 @@
-package com.w2a.RestFramework.API;
+package com.w2a.RestFramework.API.stripe;
 
 import com.w2a.RestFrameworkSetup.BaseTest;
 import io.restassured.response.Response;

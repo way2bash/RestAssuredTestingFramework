@@ -10,17 +10,34 @@
     </listeners>
     <test name="Delete_customer">
         <classes>
-            <class name="com.w2a.RestTestingFramework.testcases.DeleteCustomerTest"/>
+            <class name="com.w2a.RestTestingFramework.testcases.stripe.DeleteCustomerTest"/>
 
         </classes>
-    </test>
+   </test>
     <test name="Create Customer Api  Test">
         <classes>
-            <class name="com.w2a.RestTestingFramework.testcases.CreateCustomerTest"/>
+            <class name="com.w2a.RestTestingFramework.testcases.stripe.CreateCustomerTest"/>
 
         </classes>
     </test>
 
+    <test name="Create Order Api  Test">
+        <classes>
+            <class name="com.w2a.RestTestingFramework.testcases.paypal.CreateOrderTest"/>
 
+
+
+
+        </classes>
+    </test>
+    <test name="Get Order Api  Test">
+        <classes>
+            <class name="com.w2a.RestTestingFramework.testcases.paypal.GetOrderTest"/>
+
+
+
+     
+        </classes>
+    </test>
 
 </suite>
